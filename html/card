@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang = "ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Phicure ATM</title>
+
+        <style>
+            .title {
+                margin : 0 auto 1em auto;
+                text-align : center;
+                font-size : 2.5em;
+            }
+            .font_big{font-size : 2em;}
+            .font_sans{font-style : Sans-serif;}
+            .font_bold{font-weight : bold;}
+            .font_center{text-align : center;}
+            * {margin : 0; padding : 0;}
+            
+        </style>
+
+    </head>
+    <body>
+        <div class = "title">
+            <h1>PHICURE ATM</h1>
+        </div>
+
+    </body>
+</html>

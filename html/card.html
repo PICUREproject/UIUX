@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang = "ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Phicure ATM</title>
+
+        <style>
+            .title {
+                margin : 0 auto 1em auto;
+                text-align : center;
+                font-size : 2.5em;
+            }
+            .font_big{font-size : 2em;}
+            .font_sans{font-style : Sans-serif;}
+            .font_bold{font-weight : bold;}
+            .font_center{text-align : center;}
+            * {margin : 0; padding : 0;}
+
+            .input_text {
+                display : block;
+                width: 400px;
+                height: 80px;
+                background-color: rgb(206, 206, 255);
+                border: 5px solid rgb(109, 109, 198);
+                border-radius: 20px;
+                font-size: 2em;
+                font-weight: bold;
+                text-align: center;
+                cursor: pointer;
+                margin : 0 auto 1em auto;
+                margin-top: 10px;
+            }
+            .input_text input[type="text"] {
+                width: 55%;
+                height: 60%;
+                background-color: white;
+                border: none;
+                border-radius: 5px;
+                font-size: 1em;
+                margin-top: 10px;
+            }
+            .input_text input[type="button"] {
+                width: 25%;
+                height: 60%;
+                background-color: rgb(109, 109, 198);
+                border: none;
+                border-radius: 5px;
+                font-size: 1em;
+                font-weight: bold;
+                color: white;
+                cursor: pointer;
+                margin-top: 10px;
+            }
+            .input_text input[type="button"]:hover {
+                background-color: rgb(85, 85, 170);
+            }
+            .ment {
+                display: block;
+                width: 600px;
+                background-color: rgb(206, 206, 255);
+                border: 5px solid rgb(109, 109, 198);
+                border-radius: 20px;
+                font-size: 1.5em;
+                font-weight: bold;
+                text-align: center;
+                padding: 20px;
+                margin: 0 auto 1em auto;
+                margin-top: 10px;
+                box-sizing: border-box;
+            }
+    
+            .ment h2 {
+                margin: 0;
+            }
+            
+        </style>
+        <script>
+            function goToFin(){
+                window.location.href = "fin.html"
+            }
+        </script>
+
+    </head>
+    <body>
+        <div class = "title">
+            <h1>PHICURE ATM</h1>
+        </div>
+        <div class = "ment">
+            <h2>입금하실 금액을 입력해 주세요.</h2>
+
+        </div>
+        <form class = "input_text">
+            <input type = "text" >
+            <input type = "button" value= "입력" onclick = "goToFin()">
+        </form>
+    </body>
+</html>
