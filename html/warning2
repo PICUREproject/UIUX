@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="ko"> <!--한국어 설정-->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phicure ATM</title> <!--페이지 이름-->
+    
+    <style> 
+      .title {
+        margin : 0 auto 1em auto;
+        text-align : center;
+        font-size : 2.5em;
+      }
+      .font_big{font-size : 2em;}
+      .font_sans{font-style : Sans-serif;}
+      .font_bold{font-weight : bold;}
+      .font_center{text-align : center;}
+      * {margin : 0; padding : 0;} 
+
+      .box{
+        display : flex;
+        width: 900px;
+        flex-direction : column;
+        justify-content : center;
+        align-items : center;
+        border-width : thick;
+        border-style : solid;
+        border-radius : 40px;
+        border-color : rgb(255, 0, 0, 0.659);
+        background-color: rgb(253, 124, 124);
+        padding: 20px;
+        margin: 0 auto;
+      }
+      .box p{
+        font-weight : bold;
+        font-size: 2.5em;
+        margin: 0.5em;
+      }
+
+      
+    </style>
+
+    <script>
+      
+    </script>
+  </head>
+
+  <body>
+    <div class = "title">
+      <h1>PHICURE ATM</h1>
+    </div>
+    <!---->
+    <div class = "box">
+        
+    </div>
+    
+  </body>
+</html>
